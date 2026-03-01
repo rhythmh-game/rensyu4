@@ -39,6 +39,7 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   gap: 1px; /* セット同士の間隔 */
   margin: 2px;
+  
 }
 
 .theme {
