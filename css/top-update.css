@@ -1,0 +1,52 @@
+@charset "utf-8";
+.update {
+  background-color: #aaaaaa;
+  text-align: center;
+}
+
+.new img {
+  width: 30%;
+  background-color: white;
+  
+}
+
+.notes img {
+  width: 15%;
+  background-color: white;
+}
+
+
+
+.theme{
+  
+  display: flex;
+  width: 80%;
+   /* background: #FFF; */
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    padding: 0.5em 1em;
+    margin: 0 auto;
+     justify-content: center; /* 水平方向の中央寄せ */
+  align-items: center; /* 垂直方向の中央寄せ */
+}
+
+.card {
+  width: 50%;
+}
+.card img {
+  width: 80%;
+}
+
+.team
+{
+  display: block;
+  width: 50%;
+  margin-left: 0px;
+}
+.team img {
+  width: 60%;
+  margin-top: 5px;
+  background-color: white;
+}
+
+
