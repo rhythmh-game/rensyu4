@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+
+* {
+  box-sizing: border-box;
+}
+
+
 h1 {
   font-size: 20px;
   text-align: center;
@@ -15,7 +21,7 @@ h2 {
 }
 
 .card img{
-  width: 20vw;
+  /* width: 20vw; */
   margin-left: 10px;
 }
 
@@ -24,22 +30,16 @@ h2 {
   text-align: left;
 }
 
-.song ul {
-  list-style: disc;
-  padding-left: 100px; 
-  /* margin: 0; */
-}
-
 .song ul li {
   margin-bottom: 2px;
 }
-/* ページ全体のセットを2列に並べる */
+
+
 .sets-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1px; /* セット同士の間隔 */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 8px;
   margin: 2px;
-  
 }
 
 .theme {
@@ -48,16 +48,12 @@ h2 {
   align-items: flex-start;
 }
 
-.theme .card img {
-  width: 60px; /* 好きなサイズに調整 */
-  display: block;
-}
 
 .theme .song ul {
   list-style: disc; /* ● */
   padding-left: 20px;
   padding-right: 10px;
-  font-size: 2vw;
+  font-size: 12px;
 }
 
 .theme .card {
@@ -69,5 +65,22 @@ h2 {
   width: 80%;
   
   object-fit: cover; /* 縦横比を維持してはみ出す部分をカット */
+  display: block;
+}
+
+.all img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
   display: block;
 }
