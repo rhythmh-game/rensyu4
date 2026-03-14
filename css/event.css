@@ -6,6 +6,12 @@
   padding: 20px 0;
 }
 
+.title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #003333;
+  margin: 30px auto;
+}
 .main-button {
   display: inline-block;
   margin-top: 16px;
@@ -19,7 +25,7 @@ h1 {
   font-size: 20px;
   text-align: center;
   padding: 10px;
-  background-color: #000;
+  background-color: #003300;
   color: #fff;
 }
 
@@ -27,7 +33,7 @@ h2 {
   font-size: 15px;
   text-align: center;
   padding: 10px;
-  background-color: #545454;
+  background-color: #003300;
   color: #fff;
 }
 h3 {
@@ -52,6 +58,10 @@ h3 {
 }
 main {
   text-align: center;
+}
+
+.card img {
+  width: 300px;
 }
 /* 
 .second {
