@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-
+body{
+ overflow-x: hidden;
+}
   h1,h2,h3{
   display: flex;
   justify-content: center;
@@ -20,10 +22,11 @@ h3 {
 
 
   .first {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     margin: 5px 5px;
-    padding: 0 10px;
+    padding: 0 10px; 
     justify-content: center;
     
   }
@@ -36,6 +39,6 @@ h3 {
   height: auto;
 }
 
-* {
-  box-sizing: border-box;
-}
+/* * {
+	outline: 1px solid magenta;
+} */
