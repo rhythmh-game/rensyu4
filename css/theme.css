@@ -5,22 +5,26 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3{
+  text-align: center;
+}
 
 h1 {
   font-size: 20px;
-  text-align: center;
   margin: 10px;
   margin-bottom: 10px;
 }
 h2 {
   font-size: 11.5px;
-  text-align: center;
   margin: 10px 3px;
   padding: 10px;
   height: 60px;
   color: white;
 }
-
+h3{
+  padding :20px 0px;;
+  font-size:32px;
+}
 .card img{
   margin-left: 10px;
 }

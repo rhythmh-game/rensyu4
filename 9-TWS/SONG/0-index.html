@@ -3,20 +3,26 @@
 
 <head>
   <meta charset="UTF-8">
-<title>play hard</title>
-  <meta name="description" context="TWS">
+  <title>BND Song</title>
+  <meta name="description" context="BND Song">
+  <!-- <meta name="viewport" content="width=devie-width"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="../../js/toggle-menu.js"></script>
   <link href="../../css/common.css" rel="stylesheet">
   <link href="../../css/index.css" rel="stylesheet">
-  <!-- <link href="../../css/top.css" rel="stylesheet"> -->
-  <link href="../../css/song.css" rel="stylesheet">
+  <link href="../../css/theme.css" rel="stylesheet">
   <link href="../color.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
+  <style>
+    .song li {
+      color: var(--main-color);
+      text-decoration: underline;
+      text-decoration-color: var(--main-color);
+    }
+  </style>
 </head>
 
 <body>
@@ -28,135 +34,130 @@
       </button>
       <nav class="header-site-menu">
         <ul class="site-menu">
-          <li><a href="../index.html">TWS</a></li>
-          <li><a href="../SONG/0-index.html">SONG</a></li>
-          <li><a href="../THEME/index.html">THEME</a></li>
-          <li><a href="../index.html">HOME</a></li>
+          <li><a href=".././index.html">TOP</a></li>
+          <li><a href=".././SONG/index.html">SONG</a></li>
+          <li><a href=".././HIT/index.html">HIT</a></li>
+          <li><a href=".././LENGTH/index.html">LENGTH</a></li>
+          <li><a href=".././THEME/index.html">THEME</a></li>
+          <li><a href="../../index.html">HOME</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main class="main">
-    <!-- ---      ---------      ---- -->
-    <h1>play hard</h1><!-- アルバム名 -->
-    <img src="./image/PlayHard.webp">
-
-    <!-- ---      ---------      ---- -->
-    <h2>曲の長さ</h2>
-    <table class="length">
-      <tr>
-        <th>長さ</th>
-        <th>Full</th>
-        <th>Short</th>
-      </tr>
-
-      <tr><td>Hear For You</td><td>02:54</td><td>01:14</td></tr>
-      <tr><td>OVERDRIVE</td><td>02:40</td><td>01:18</td></tr>
-
-
-
-
-
-
-
-
-
-    </table>
-    <!-- ---      ---------      ---- -->
-    <h2>曲の詳細</h2>
-    <!-- ---      ---------      ---- -->
-    <h3>Hear For You</h3> <table class="length"><!-- 曲名 -->
-<tr><th class="col1"></th><th>Full</th><th>Short</th><th>難易度</th></tr>
-      <tr><td class="col1">イージー</td><td>253</td><td>85</td><td>2</td></tr>
-      <tr><td class="col1">ノーマル</td><td>395</td><td>139</td><td>5</td></tr>
-      <tr><td class="col1">ハード</td><td>679</td><td>240</td><td>9</td></tr>
-      <tr><td class="col1">スーパーハード</td><td>1000</td><td>375</td><td>12</td></tr></table>
-    <h3>OVERDRIVE</h3> <table class="length"><!-- 曲名 -->
-    <tr><th class="col1"></th><th>Full</th><th>Short</th><th>難易度</th></tr>
-      <tr><td class="col1">イージー</td><td>300</td><td>131</td><td>3</td></tr>
-      <tr><td class="col1">ノーマル</td><td>525</td><td>222</td><td>7</td></tr>
-      <tr><td class="col1">ハード</td><td>815</td><td>370</td><td>10</td></tr>
-      <tr><td class="col1">スーパーハード</td><td>1067</td><td>484</td><td>13</td></tr></table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- ---      ---------      ---- -->
-    <h2>1秒あたりのHIT数</h2>
-
-    <table class="hit">
-      <colgroup>
-        <col style="width:100px">
-        <col span="4">
-      </colgroup>
-        <tr><th></th><th>Full</th><th></th><th>Short</th><th></th></tr>
-        <tr><th>難易度</th><th>Hard</th><th>SH</th><th>Hard</th><th>SH</th></tr>
-        <tr><td>Hear For You</td><td>3.9</td><td>5.7</td><td>3.2</td><td>5.1</td></tr>
-        <tr><td>OVERDRIVE</td><td>5.1</td><td>6.7</td><td>4.7</td><td>6.2</td></tr>
-
-
-
-
-
-
-
-
-
-    </table>
+    <div class="sets-grid">
+      <div class="set">
+        <h2>NO TRAGEDY</h2>
+        <div class="theme">
+          <div class="card">
+            <img src="./image/NoTragedy.webp" alt="">
+          </div>
+          <div class="song">
+            <a href="./NoTragedy.html">
+              <ul>
+                <li>Fire Escape</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="set">
+        <h2>play hard</h2>
+        <div class="theme">
+          <div class="card">
+            <img src="./image/PlayHard.webp" alt="">
+          </div>
+          <div class="song">
+            <a href="./PlayHard.html">
+              <ul>
+                <li>Hear For You</li>
+                <li>OVERDRIVE</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="set">
+        <h2>TRY WITH US</h2>
+        <div class="theme">
+          <div class="card">
+            <img src="./image/TryWithUs.webp" alt="">
+          </div>
+          <div class="song">
+            <a href="./TRYWITHUS.html">
+              <ul>
+                <li>Random Play</li>
+                <li>Lucky to be loved</li>
+                <li>Countdown!</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="set">
+        <h2>Last Bell</h2>
+        <div class="theme">
+          <div class="card">
+            <img src="./image/" alt="">
+          </div>
+          <div class="song">
+            <a href="./">
+              <ul>
+                <li>Highlight (Holiday ver.)</li>
+                <li>Highlight</li>
+                <li>Last Festival</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="set">
+        <h2>SUMMER BEAT</h2>
+        <div class="theme">
+          <div class="card">
+            <img src="./image/SummerBeat.webp" alt="">
+          </div>
+          <div class="song">
+            <a href="./SUMMERBEAT.html">
+              <ul>
+                <li>Keep On</li>
+                <li>Double Take</li>
+                <li>hey! hey! </li>
+                <li>If I'm S, Can You Be My N?</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="set">
+        <h2>SPARKLING BLUE </h2>
+        <div class="theme">
+          <div class="card">
+            <img src="./image/SparklingBlue.webp" alt="">
+          </div>
+          <div class="song">
+            <a href="./SPARKLING.html">
+              <ul>
+                <li>first hooky</li>
+                <li>Oh Mymy : 7s</li>
+                <li>umplugged boy</li>
+                <li>plot twist</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
+
+
+
+
+
   <footer class="footer">
   </footer>
+
 </body>
+
 </html>

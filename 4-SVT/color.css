@@ -1,8 +1,17 @@
    :root {
-  --main-color: #E9D3E1;
-  }
-  
-  h1, h2, h3 {
-    background-color:  var(--main-color);
-  }
+     --main-color: #E9D3E1;
+   }
 
+   h1,
+   h2,
+   h3 {
+     background-color: var(--main-color);
+   }
+
+   :root {
+     --sub-color: #F4E9F0;
+   }
+
+   h4 {
+     background-color: var(--sub-color);
+   }

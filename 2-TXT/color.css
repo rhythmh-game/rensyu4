@@ -13,3 +13,9 @@
 * {
    box-sizing: border-box;
 }
+:root {
+--sub-color: #B5C8F7;
+}
+h4{
+background-color: var(--sub-color);
+}

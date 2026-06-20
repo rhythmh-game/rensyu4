@@ -6,3 +6,10 @@
     background-color:  var(--main-color);
   }
 
+  :root {
+  --sub-color: #98A3F0;
+  }
+
+  h4{
+    background-color:  var(--sub-color);
+  }

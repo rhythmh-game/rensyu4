@@ -9,4 +9,12 @@
   h3 {
     color: white;
   }
+
+    :root {
+  --sub-color: #C6B2FB;
+  }
+
+  h4{
+    background-color:  var(--sub-color);
+  }
   

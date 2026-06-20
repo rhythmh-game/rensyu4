@@ -6,3 +6,9 @@
     background-color:  var(--main-color);
   }
 
+:root {
+--sub-color: #F0A7DC;
+}
+h4{
+background-color: var(--sub-color);
+}
